@@ -1,0 +1,64 @@
+.mainwrap{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+  overflow-y: hidden; 
+}
+.editorwrap{
+  height: 100vh;
+}
+.aside{
+  background-color: #1c1e29;
+  color: #fff;
+  display: flex;
+  flex-direction: column; 
+}
+.asideInner{
+  flex: 1;
+} 
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding-left: 10px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #6487cd; 
+}
+.logo img{
+  color: #fff;
+}
+.logo p{
+  font-size: 25px;
+  font-weight: bold;
+}
+.btnCopy{
+  padding: 10px 16px;
+  margin: 7px 21px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #6487cd;
+  color: #fff; 
+}
+.btnLeave{
+  padding: 10px 16px;
+  margin: 7px 21px;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: red;
+  color: #fff;
+}
+.btnCopy:hover{
+  background-color: #4267B2;
+  cursor: pointer;
+}
+.btnLeave:hover{
+  background-color: rgb(147, 6, 6);
+  cursor: pointer; 
+}
+   
+ 
